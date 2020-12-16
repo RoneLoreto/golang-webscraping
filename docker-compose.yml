@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  go-web-scraping:
+    build: .
+    tty: true
+    volumes:
+      - ./app:/go/src/app
